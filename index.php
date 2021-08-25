@@ -26,6 +26,8 @@
 							<div class="inner">
 								<h1>Dairymen.io</h1>
 								<p>Two people trying to learn</p>
+								<br>
+								<p>Your IP Address is: <? echo $_SERVER["REMOTE_ADDR"]; ?> </p>
 							</div>
 						</div>
 						<nav>
