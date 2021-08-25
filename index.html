@@ -27,7 +27,14 @@
 								<h1>Dairymen.io</h1>
 								<p>Two people trying to learn</p>
 								<br>
-								<p>Your IP Address is: <? echo $_SERVER["REMOTE_ADDR"]; ?> </p>
+								<script type="application/javascript">
+									function getIP(json) {
+									  document.write("Your public IP address is: ", json.ip);
+									}
+								  </script>
+								  
+								  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+                
 							</div>
 						</div>
 						<nav>
